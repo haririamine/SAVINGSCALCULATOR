@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Savings Calculator</title>
+    <link rel="stylesheet" href="css">
+</head>
+
+<body>
+
+    <div class="savings-calculator">
+        <div class="top">
+            <h2>Savings Calculator</h2>
+            <form>
+                <div class="group">
+                    <div class="title">Entry Age</div>
+                    <input type="text" value="30" class="entry-age" />
+                </div>
+
+                <div class="group">
+                    <div class="title">Age</div>
+                    <input type="text" value="30" class="age" />
+                </div>
+
+                <div class="group">
+                    <div class="title">Desired Savings Amount</div>
+                    <input type="text" value="100000" class="desired-amount" />
+                </div>
+
+                <div class="group">
+                    <div class="title">Annual Salary</div>
+                    <input type="text" value="50000" class="annual-salary" />
+                </div>
+
+                <div class="group">
+                    <div class="title">Savings Percentage</div>
+                    <input type="text" value="10" class="savings-percentage" />
+                </div>
+
+                <div class="group">
+                    <div class="title">Annual Raise Percentage</div>
+                    <input type="text" value="2" class="raise-percentage" />
+                </div>
+            </form>
+        </div>
+
+        <div class="result">
+            <div class="left">
+                <div class="Accumulated-savings">
+                    <h3>Accumulated Savings</h3>
+                    <div class="value" id="accumulated-savings">0</div>
+                </div>
+                <div class="Number-of-years-needed">
+                    <h3>Number of Years Needed</h3>
+                    <div class="value" id="number-of-years-needed">0</div>
+                </div>
+                <div class="Number-of-years-good-living">
+                    <h3>Number of Years for Good Living</h3>
+                    <div class="value" id="number-of-years-good-living">0</div>
+                </div>
+                <button class="calculate-btn">Calculate</button>
+            </div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+
+</body>
+
+</html>

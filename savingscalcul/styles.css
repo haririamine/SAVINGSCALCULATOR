@@ -1,0 +1,23 @@
+/* Add your CSS styles here */
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+#choices {
+    margin-top: 20px;
+}
+
+button {
+    font-size: 20px;
+    margin: 5px;
+}
+
+#resultDisplay {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.scoreDisplay {
+    margin-top: 20px;
+}
